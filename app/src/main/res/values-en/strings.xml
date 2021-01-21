@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Clima</string>
     <string name="texto_grados">23°</string>
     <string name="texto_ciudad">Sabinas, Coah.</string>
@@ -8,6 +10,5 @@
     <string name="texto_boton_shanghai">Clima de Shanghai</string>
     <string name="texto_boton_sabinas">Clima de Sabinas, Coah.</string>
     <string name="formato_temperatura">%1$s °C</string>
-
 
 </resources>

@@ -2,14 +2,13 @@ package com.example.appclima
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class Ciudades : AppCompatActivity() {
 
-    companion object{
-        val TAG = "com.example.appclima.ciudades.CIUDAD"
+    companion object {
+        const val TAG = "com.example.appclima.ciudades.CIUDAD"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,25 +20,25 @@ class Ciudades : AppCompatActivity() {
         val bShanghai = findViewById<Button>(R.id.btnShanghai)
         val bSabinas = findViewById<Button>(R.id.btnSabinas)
 
-        bMexico.setOnClickListener(View.OnClickListener {
+        bMexico.setOnClickListener {
             intentSiguienteActividad("3527646")
-        })
+        }
 
-        bParis.setOnClickListener(View.OnClickListener {
+        bParis.setOnClickListener {
             intentSiguienteActividad("2988507")
-        })
+        }
 
-        bShanghai.setOnClickListener() {
+        bShanghai.setOnClickListener {
             intentSiguienteActividad("1796236")
         }
 
-        bSabinas.setOnClickListener() {
+        bSabinas.setOnClickListener {
             intentSiguienteActividad("3988333")
         }
 
     }
 
-    fun intentSiguienteActividad(id:String){
+    fun intentSiguienteActividad(id: String) {
         val intent = Intent(this, MainActivity::class.java)
         intent.putExtra(TAG, id)
         startActivity(intent)

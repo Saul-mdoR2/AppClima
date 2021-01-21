@@ -1,12 +1,9 @@
 package com.example.appclima
 
-class Ciudad(name:String, weather:ArrayList<Weather>?, main:Main) {
-    // EL NAME ES UNA PROPIEDAD PORQUE LA API SI DEVUELVE EL NOMBRE SENCILLO
-    var name:String = ""
-    // EL WEATHER ES UN ARRAY CON UN SOLO OBJETO, Y ESE OBJETO TIENE VARIAS PROPIEDADES, PERO SOLO NOS SIRVE LA DESCRIPTION
-    var weather:ArrayList<Weather>? = null
-    // LA API DEVUELVE UN OBJETO MAIN CON VARIAS PROPIEDADES, PERO SOLO NOS SIRVE TEMP
-    var main:Main? = null
+class Ciudad(name: String, weather: ArrayList<Weather>?, main: Main) {
+    var name: String = ""
+    var weather: ArrayList<Weather>? = null
+    var main: Main? = null
 
     init {
         this.name = name
