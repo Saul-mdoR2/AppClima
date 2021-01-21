@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="texto_grados">23°</string>
+    <string name="texto_ciudad">Sabinas, Coah.</string>
+    <string name="texto_status">Nublado</string>
+    <string name="texto_bienvenida">Bienvenido a mi App del Clima. Elija una opción para ver el clima de la ciudad.</string>
+    <string name="texto_boton_Mexico">Clima de la ciuda de México</string>
+    <string name="texto_boton_paris">Clima de Paris</string>
+    <string name="texto_boton_shanghai">Clima de Shanghai</string>
+    <string name="texto_boton_sabinas">Clima de Sabinas, Coah.</string>
+
+</resources>
